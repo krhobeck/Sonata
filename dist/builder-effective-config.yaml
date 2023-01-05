@@ -1,0 +1,9 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.sonata.Sonata
+publish:
+  provider: github
+  token: <stripped sensitive data>
+files: []
+electronVersion: 22.0.0

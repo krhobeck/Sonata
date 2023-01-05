@@ -1,0 +1,8 @@
+version: 1.0.0
+files:
+  - url: sonata-Setup-1.0.0.exe
+    sha512: 29jgmnEIP4xpgqv6aJPTBDhCjA0LEKF+LxmUw5UzWyv31hRpCkgdDflxEVW4JuTiJOLxKV3dp9L7ZlA1iFhhzg==
+    size: 69558530
+path: sonata-Setup-1.0.0.exe
+sha512: 29jgmnEIP4xpgqv6aJPTBDhCjA0LEKF+LxmUw5UzWyv31hRpCkgdDflxEVW4JuTiJOLxKV3dp9L7ZlA1iFhhzg==
+releaseDate: '2023-01-05T02:07:55.307Z'

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Sonata</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+</head>
+
+<body>
+    <!-- Start your project here-->
+    <div class="container-fluid">
+        <section class="main mb-2">
+            <div class="row">
+                <div class="input-group rounded m-2" style="width: auto;">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                        aria-describedby="search-addon" />
+                </div>
+                <div class="dropdown m-2" style="width: auto;">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-mdb-toggle="dropdown" aria-expanded="false">
+                        Sort By
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li><a class="dropdown-item" href="#">Date Modified</a></li>
+                        <li><a class="dropdown-item" href="#">Length</a></li>
+                        <li><a class="dropdown-item" href="#">Date Added</a></li>
+                    </ul>
+                </div>
+                <div class="m-2" style="width: auto; float: right;">
+                    <button class="btn btn-primary text-nowrap" type="button">Add song</button>
+                </div>
+            </div>
+        </section>
+        <table class="table align-middle mb-0 bg-white">
+            <thead class="bg-light">
+                <tr>
+                    <th>Name</th>
+                    <th>Album</th>
+                    <th>Time</th>
+                    <th>Date Added</th>
+                    <th>Date Modified</th>
+                    <th>Plays</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="d-flex align-items-center">
+                            <img src="https://mdbootstrap.com/img/new/avatars/8.jpg" alt=""
+                                style="width: 45px; height: 45px; border-radius: 3px;" class="square" />
+                            <div class="ms-3">
+                                <p class="fw-bold mb-1">Test</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">1:09</p>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">Dark and Scary</p>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">Some Date</p>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">Some Date</p>
+                    </td>
+                    <td>
+                        <p class="fw-normal mb-1">1</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>
